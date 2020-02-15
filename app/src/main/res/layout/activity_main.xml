@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/password"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/login" />
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/not_registered"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/new_register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/REGISTER"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:paddingStart="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

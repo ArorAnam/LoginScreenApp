@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="REGISTER">REGISTER</string>
+    <string name="Email">Email</string>
+    <string name="Register">Register</string>
+    <string name="ConfirmPassword">confirm password</string>
+    <string name="Already_Registered">Already Registered</string>
+    <string name="LOGIN">LOGIN</string>
+</resources>
